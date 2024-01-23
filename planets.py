@@ -2,7 +2,7 @@
 # If string does not match a planet, raise ValueError
 def weight_on_planets(pounds: float, planet: str) -> float:
    # write your code here
-   new_weight = 0
+   new_weight: float = 0.0
    if planet == "Mars":
       new_weight = pounds * .38
    elif planet == "Jupiter":
